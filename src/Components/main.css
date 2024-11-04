@@ -1,0 +1,79 @@
+body{
+    background-color: #a28089;
+    text-align: center;
+
+}
+#editor{
+    width : 26.51rem;
+    min-width: 26.51rem;
+    border: .1rem solid black;
+    border-radius: .2rem;
+    background-color: #cfc3c7;
+    min-height: 10rem;
+    outline: none;
+    padding-top: .3rem;
+    margin-top: .1rem;
+    max-width: 20rem;
+}
+
+#preview{
+    width : 32rem;
+    border: .1rem solid black;
+    border-radius: .2rem;
+    margin: auto;
+    min-height: 10rem;
+    background-color: #cfc3c7;
+    margin-top: .1rem;
+    max-width: 35rem;
+}
+img{
+    width: 70%;
+}
+
+#ed-toolbar{
+    width: 26.9rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    border: .1rem solid black;
+    border-radius: .2rem;
+    background-color: #cfc3c7;
+    margin: auto;
+    font-size: .7rem;
+}
+
+#max-icon{
+    width: 100%;
+    height: 1.1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: #a28089;
+  }
+  button:hover {
+    transform: scale(1.1); /* Slightly increase size */
+  }
+
+  #pr-toolbar{
+    width: 32.2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    border: .1rem solid black;
+    border-radius: .2rem;
+    background-color: #cfc3c7;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: .7rem;
+  }
